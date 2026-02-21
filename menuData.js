@@ -1,0 +1,112 @@
+export const MENU_ITEMS = [
+  // STARTERS
+  {
+    id: 's1',
+    name: 'Greek Salad',
+    description: 'The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.',
+    price: 12.99,
+    category: 'Starters',
+    emoji: '🥗',
+  },
+  {
+    id: 's2',
+    name: 'Bruschetta',
+    description: 'Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil. Topped with fresh veggies.',
+    price: 7.99,
+    category: 'Starters',
+    emoji: '🥖',
+  },
+  {
+    id: 's3',
+    name: 'Hummus',
+    description: 'Creamy chickpea dip blended with tahini, lemon juice, and garlic. Served with warm pita bread and a drizzle of olive oil.',
+    price: 6.99,
+    category: 'Starters',
+    emoji: '🫙',
+  },
+  // MAINS
+  {
+    id: 'm1',
+    name: 'Grilled Fish',
+    description: 'Barbequed catch of the day with red onion, crisp capers, chive creme fraiche, and a side of seasonal vegetables.',
+    price: 20.00,
+    category: 'Mains',
+    emoji: '🐟',
+  },
+  {
+    id: 'm2',
+    name: 'Pasta',
+    description: 'Penne with fried aubergines, tomato sauce, fresh chilli, garlic, basil & salted ricotta cheese.',
+    price: 18.99,
+    category: 'Mains',
+    emoji: '🍝',
+  },
+  {
+    id: 'm3',
+    name: 'Grilled Chicken',
+    description: 'Herb marinated free range chicken served with roasted Mediterranean vegetables and tzatziki sauce.',
+    price: 16.99,
+    category: 'Mains',
+    emoji: '🍗',
+  },
+  {
+    id: 'm4',
+    name: 'Lamb Chops',
+    description: 'Tender lamb chops marinated in rosemary and garlic, served with saffron rice and grilled asparagus.',
+    price: 24.99,
+    category: 'Mains',
+    emoji: '🥩',
+  },
+  // DESSERTS
+  {
+    id: 'd1',
+    name: 'Lemon Dessert',
+    description: 'Light and fluffy traditional homemade Italian Lemon and ricotta cake, served with a scoop of vanilla gelato.',
+    price: 6.99,
+    category: 'Desserts',
+    emoji: '🍋',
+  },
+  {
+    id: 'd2',
+    name: 'Tiramisu',
+    description: 'Classic Italian dessert made with mascarpone cheese, espresso-soaked ladyfingers and a dusting of cocoa.',
+    price: 8.99,
+    category: 'Desserts',
+    emoji: '🍰',
+  },
+  {
+    id: 'd3',
+    name: 'Baklava',
+    description: 'Traditional Mediterranean baklava made with layers of phyllo pastry, chopped nuts and honey syrup.',
+    price: 5.99,
+    category: 'Desserts',
+    emoji: '🍯',
+  },
+  // DRINKS
+  {
+    id: 'dr1',
+    name: 'Fresh Lemonade',
+    description: 'Freshly squeezed lemonade with mint and a hint of honey. Served over ice.',
+    price: 4.99,
+    category: 'Drinks',
+    emoji: '🥤',
+  },
+  {
+    id: 'dr2',
+    name: 'House Wine',
+    description: 'Carefully selected Mediterranean red or white wine by the glass, paired perfectly with any dish.',
+    price: 9.99,
+    category: 'Drinks',
+    emoji: '🍷',
+  },
+  {
+    id: 'dr3',
+    name: 'Turkish Coffee',
+    description: 'Rich and aromatic Turkish coffee served in a traditional copper cezve with lokum on the side.',
+    price: 3.99,
+    category: 'Drinks',
+    emoji: '☕',
+  },
+];
+
+export const CATEGORIES = ['All', 'Starters', 'Mains', 'Desserts', 'Drinks'];

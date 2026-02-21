@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Little Lemon",
+    "slug": "little-lemon",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#495E57"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#495E57"
+      }
+    },
+    "plugins": [
+      "expo-sqlite"
+    ]
+  }
+}
